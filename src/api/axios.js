@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://user-api-urfj.onrender.com/";
+const BASE_URL = "https://gentle-visor-duck.cyclic.app";
 
 export default axios.create({
   baseURL: BASE_URL,
