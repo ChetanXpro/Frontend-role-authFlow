@@ -4,7 +4,7 @@ const BASE_URL = "https://gentle-visor-duck.cyclic.app";
 export default axios.create({
   baseURL: BASE_URL,
   timeout:9000,
-withCredentials: true,
+  withCredentials: true,
 });
 
 export const axiosPrivate = axios.create({
